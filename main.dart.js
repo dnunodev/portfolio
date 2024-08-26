@@ -69601,8 +69601,10 @@ s=t.w
 b4=A.as(b4,a0,s).w
 r=a.c
 r.toString
-r=A.as(r,a0,s).w.a.a>1000?2200:3600
-q=a.c
+if(A.as(r,a0,s).w.a.a>1000)r=2200
+else{r=a.c
+r.toString
+r=A.as(r,a0,s).w.a.a<=500?3000:3600}q=a.c
 q.toString
 q=A.as(q,a0,s).w.a.a>500?25:20
 p=a.d
@@ -69667,19 +69669,16 @@ s=A.as(f,a0,s).w.a.a>500?18:16
 o=A.cJ(A.d([e,d,A.cJ(A.d([c,b,p,A.bK(a0,A.bg(b2,A.bb(a4,A.O(B.i.a7(178.5),n,m,o),s,B.J),B.ck),B.G,a0,a0,a0,a0,a0,a0,a0,a0,a0,300),A.aS(a0,20,a0),A.bg(a9,A.bb(a1,A.O(102,n,m,o),14,B.M),a0),A.aS(a0,15,a0),A.bg(b0,A.bb(a1,A.O(B.i.a7(127.5),n,m,o),20,B.M),a0)],k),B.V,B.an)],k),B.V,B.ab)
 s=o}return A.bK(a0,A.cJ(A.d([l,q,j,i,h,g,s],k),B.V,B.ab),B.G,a.e,a0,a0,a0,r,a0,a0,a0,a0,b4.a.a)},
 fg(a){return new A.fO(new A.auv(this,a),null)},
-U5(){var s,r,q,p,o=this,n=null,m=o.c
-m.toString
+U5(){var s,r,q,p=this,o=null,n=p.c
+n.toString
 s=t.w
-m=A.as(m,n,s).w
-r=o.c
+n=A.as(n,o,s).w.a.a
+r=p.c
 r.toString
-r=A.as(r,n,s).w.a.a>1000?950:450
-q=o.c
-q.toString
-s=A.as(q,n,s).w.a.a>1000?20:17
-q=o.d.a
-p=t.F
-return A.bK(n,A.eN(A.d([A.bK(n,A.cJ(A.d([A.bg("Developed by Daniel Nuno",A.bb("Work Sans",A.O(B.i.a7(127.5),q>>>16&255,q>>>8&255,q&255),s,B.J),n),A.aS(n,20,n),A.eN(A.d([A.ee(n,new A.fO(new A.aup(o),n),B.ad,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,new A.auq(o),n,n,n),A.aS(n,n,20),A.ee(n,new A.fO(new A.aur(o),n),B.ad,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,new A.aus(o),n,n,n),A.aS(n,n,20),A.ee(n,new A.fO(new A.aut(o),n),B.ad,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,new A.auu(o),n,n,n)],p),B.V,B.ab,B.az)],p),B.V,B.ab),B.G,n,n,n,n,n,n,n,n,n,r)],p),B.V,B.ab,B.az),B.G,n,n,n,n,200,n,n,n,n,m.a.a)},
+s=A.as(r,o,s).w.a.a>1000?20:17
+r=p.d.a
+q=t.F
+return A.bK(o,A.eN(A.d([A.bK(o,A.cJ(A.d([A.bg("Developed by Daniel Nuno",A.bb("Work Sans",A.O(B.i.a7(127.5),r>>>16&255,r>>>8&255,r&255),s,B.J),o),A.aS(o,20,o),A.eN(A.d([A.ee(o,new A.fO(new A.aup(p),o),B.ad,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.auq(p),o,o,o),A.aS(o,o,20),A.ee(o,new A.fO(new A.aur(p),o),B.ad,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.aus(p),o,o,o),A.aS(o,o,20),A.ee(o,new A.fO(new A.aut(p),o),B.ad,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o,new A.auu(p),o,o,o)],q),B.V,B.ab,B.az)],q),B.V,B.ab),B.G,o,o,o,o,o,o,o,o,o,n)],q),B.V,B.ab,B.az),B.G,o,o,o,o,200,o,o,o,o,n)},
 Tg(a){var s,r=this,q=null,p="Raleway",o=r.d,n=o.a,m=n>>>16&255,l=n>>>8&255
 n&=255
 s=t.F
