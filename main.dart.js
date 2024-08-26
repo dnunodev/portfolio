@@ -69557,7 +69557,7 @@ e.toString
 if(A.ap(e,b,a3).w.a.a>1000)e=950
 else{e=c.c
 e.toString
-e=A.ap(e,b,a3).w.a.a<500?m*0.9:400}d=c.c
+e=A.ap(e,b,a3).w.a.a<500?m*0.95:400}d=c.c
 d.toString
 d=A.ap(d,b,a3).w.a.a>500?20:16
 m=A.bK(b,A.cJ(A.d([f,g,A.bK(b,A.aAE(b,b,B.cl,b,b,!0,b,A.a4N(B.BZ,A.bb("Quicksand",A.O(B.i.a7(127.5),j,i,l),d,B.J),b),B.ck,b,b,B.aP,B.b0),B.G,b,b,b,b,b,b,b,b,b,e)],h),B.V,B.ab),B.G,b,b,b,b,k,b,b,b,b,m)
@@ -69766,7 +69766,7 @@ s=A.O(B.i.a7(76.5),s>>>16&255,s>>>8&255,s&255)}else{s=o.a
 s=A.O(13,s>>>16&255,s>>>8&255,s&255)}r=A.qX(10)
 p=p.c
 p.toString
-p=A.ap(p,q,t.w).w.a.a>500?17:16
+p=A.ap(p,q,t.w).w.a.a>500?17:15
 if(a)o=B.B
 else{o=o.a
 o=A.O(153,o>>>16&255,o>>>8&255,o&255)}return A.bK(q,A.nq(A.bg(this.b,A.bb("Raleway",o,p,B.M),q),q,q),B.G,q,q,new A.ck(s,q,q,r,q,q,B.aS),q,60,q,q,q,q,200)},
